@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>MS Agro Industry | Harvester Dealer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MS Harvester Dealer | Kashipur</title>
 
 <style>
 body{
   margin:0;
-  font-family:Arial, sans-serif;
-  background:#f4f4f4;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f4f6f5;
+  color:#333;
 }
+
+/* HEADER */
 header{
   background:#145a32;
   color:white;
@@ -20,6 +23,7 @@ header{
 header h1{margin:0;}
 header p{margin:8px 0 0;}
 
+/* HERO */
 .hero{
   background:#1e8449;
   color:white;
@@ -33,8 +37,9 @@ header p{margin:8px 0 0;}
   margin-top:15px;
 }
 
+/* SECTIONS */
 .section{
-  padding:25px 15px;
+  padding:30px 15px;
   max-width:1100px;
   margin:auto;
 }
@@ -43,60 +48,39 @@ header p{margin:8px 0 0;}
   color:#145a32;
 }
 
-.cards{
+/* GALLERY */
+.gallery{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:20px;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:15px;
   margin-top:20px;
 }
-.card{
-  background:white;
-  border-radius:12px;
-  box-shadow:0 4px 8px rgba(0,0,0,0.1);
-  overflow:hidden;
-}
-.card img{
+.gallery img{
   width:100%;
-  height:200px;
-  object-fit:cover;
-}
-.card div{
-  padding:15px;
-}
-.card h3{margin:0;color:#145a32;}
-
-.about, .contact{
-  background:white;
-  border-radius:12px;
-  padding:20px;
-  margin-top:20px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
 }
 
-.buttons{
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-}
-.buttons a{
-  padding:14px 18px;
-  border-radius:30px;
+/* CONTACT */
+.contact{
+  background:#145a32;
   color:white;
-  text-decoration:none;
+  text-align:center;
+  padding:25px;
+}
+.contact a{
+  color:white;
   font-weight:bold;
-  text-align:center;
+  text-decoration:none;
 }
-.call{background:#0b5ed7;}
-.whatsapp{background:#25D366;}
 
+/* FOOTER */
 footer{
-  background:#333;
+  background:#0b3d24;
   color:white;
   text-align:center;
-  padding:15px;
-  margin-top:30px;
+  padding:10px;
+  font-size:14px;
 }
 </style>
 </head>
@@ -104,76 +88,56 @@ footer{
 <body>
 
 <header>
-  <h1>MS Agro Industry</h1>
-  <p>Authorized Harvester Dealer</p>
+  <h1>MS Harvester Dealer</h1>
+  <p>Authorized Dealer – MS Agro Industries</p>
 </header>
 
-<section class="hero">
-  <h2>MS Agro Harvester Machines</h2>
-  <img src="images/IMG-20250721-WA0197.jpg" alt="MS Agro Harvester">
-  <p>Powerful & reliable harvesters for farmers</p>
-</section>
+<div class="hero">
+  <h2>High Performance Harvesters</h2>
+  <p>उन्नत तकनीक | भरोसेमंद मशीनें</p>
+  <img src="images/767x790.webp" alt="MS Harvester">
+</div>
 
-<section class="section">
-<h2>Harvester Models | हार्वेस्टर मॉडल</h2>
+<div class="section">
+  <h2>About Us | हमारे बारे में</h2>
+  <p>
+    We are an authorized dealer of <b>MS Agro Industries Harvesters</b>, 
+    providing powerful, durable, and efficient harvesters for Indian farmers.
+    <br><br>
+    हम किसानों को आधुनिक, मजबूत और किफायती हार्वेस्टर मशीन उपलब्ध कराते हैं।
+  </p>
+</div>
 
-<div class="cards">
-  <div class="card">
-    <img src="images/IMG-20250721-WA0197.jpg">
-    <div>
-      <h3>MS 986 Harvester</h3>
-      <p>High performance harvester for Indian farms.</p>
-      <p><b>एमएस 986 हार्वेस्टर</b> – मजबूत और भरोसेमंद</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="images/IMG-20250721-WA0197.jpg">
-    <div>
-      <h3>MS 988 Harvester</h3>
-      <p>Efficient harvesting with low maintenance.</p>
-      <p><b>एमएस 988 हार्वेस्टर</b> – कम खर्च, ज्यादा उत्पादन</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="images/IMG-20250721-WA0197.jpg">
-    <div>
-      <h3>MS 990 Harvester</h3>
-      <p>Designed for heavy-duty farming needs.</p>
-      <p><b>एमएस 990 हार्वेस्टर</b> – भारी काम के लिए</p>
-    </div>
+<div class="section">
+  <h2>Our Harvesters | हमारे हार्वेस्टर</h2>
+  <div class="gallery">
+    <img src="images/IMG-20250721-WA0198.jpg">
+    <img src="images/IMG-20250721-WA0200.jpg">
+    <img src="images/IMG-20250920-WA0008.jpg">
+    <img src="images/IMG-20250920-WA0009.jpg">
+    <img src="images/IMG-20250920-WA0011.jpg">
   </div>
 </div>
-</section>
 
-<section class="section">
-<div class="about">
-<h2>About Us | हमारे बारे में</h2>
-<p>
-We are authorized dealers of MS Agro Industry Harvesters in Kashipur & nearby areas.  
-<br><br>
-हम काशीपुर और आसपास के क्षेत्रों में MS Agro Industry के अधिकृत हार्वेस्टर डीलर हैं।
-</p>
+<div class="section">
+  <h2>Why Choose Us | हमें क्यों चुनें</h2>
+  <ul>
+    <li>High quality MS harvesters</li>
+    <li>After-sales support</li>
+    <li>Best price & service</li>
+    <li>किसानों के लिए भरोसेमंद सेवा</li>
+  </ul>
 </div>
-</section>
 
-<section class="section">
 <div class="contact">
-<h2>Contact Us | संपर्क करें</h2>
-<p><b>📞 Call:</b> 9870926220</p>
-<p><b>📱 WhatsApp:</b> 9927148234</p>
-<p><b>📍 Address:</b> Loyiah Pul, Dariyal Road, Kashipur, Uttarakhand</p>
-</div>
-</section>
-
-<div class="buttons">
-<a class="call" href="tel:9870926220">Call Now</a>
-<a class="whatsapp" href="https://wa.me/919927148234">WhatsApp</a>
+  <h2>Contact Us | संपर्क करें</h2>
+  <p>📍 Lohia Pull, Dariyal Road, Kashipur, Uttarakhand</p>
+  <p>📞 <a href="tel:9870926220">9870926220</a></p>
+  <p>📞 <a href="tel:9927148234">9927148234</a></p>
 </div>
 
 <footer>
-© 2025 MS Agro Industry | Authorized Dealer
+  © 2025 MS Harvester Dealer | All Rights Reserved
 </footer>
 
 </body>
